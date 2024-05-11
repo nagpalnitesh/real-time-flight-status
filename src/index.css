@@ -1,68 +1,162 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.2em;
+  display: none;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 1em;
+}
+
+/* ends */
+
+/* Wrap Content and Footer */
+.wrapper {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.footer {
+  height: fit-content;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+.content {
+  flex-grow: 1;
+  margin: 12px 0;
+}
+
+.content .container-fluid {
+  width: 95%;
+  margin: auto;
+}
+
+/* ends */
+
+body,
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* flight Details */
+.flight-card {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  width: 100%;
+}
+
+.flight-details,
+.flight-title,
+.flight-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flight-details h1 {
+  flex: 2;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.flight-title h2 {
+  margin: 0 10px;
+  font-size: 10px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.flight-title h2:nth-child(1) {
+  background-color: rgba(5, 120, 120, 0.4);
+}
+.flight-title h2:nth-child(2) {
+  background-color: rgba(175, 178, 238, 0.4);
+}
+.flight-title h2:nth-child(3) {
+  background-color: rgba(128, 0, 128, 0.4);
+}
+
+.flight-data {
+  margin: 10px 0;
+}
+
+.flight-data h2 {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.flight-data .separator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.horizontal-line {
+  display: block;
+  width: 70px;
+  height: 1px; /* Adjust the height as needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Change the color of the line */
+  margin: 10px 20px; /* Adjust the margin as needed */
+}
+
+.separator .fa-plane {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.flight-dates {
+  display: flex;
+}
+
+.flight-dates h2 {
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  /* font-weight: 700; */
+  /* margin: 0 10px; */
+}
+
+.flight-dates h2:nth-child(1) {
+  background-color: rgba(5, 120, 120, 0.4);
+}
+.flight-dates h2:nth-child(2) {
+  margin-left: 20px;
+  background-color: rgba(175, 178, 238, 0.4);
+}
+
+.goBack {
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.goBack h2 {
+  font-size: 20px;
 }
+
+.fa-circle-chevron-left {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+/* ends */

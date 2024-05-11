@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "flightNumber": "A1B88",
+    "airline": "Airline 1",
+    "origin": "Origin 1",
+    "destination": "Destination 1",
+    "departureTime": "2024-05-10T18:39:49.699Z",
+    "status": "Boarding"
+  },
+  {
+    "id": 2,
+    "flightNumber": "A2B41",
+    "airline": "Airline 2",
+    "origin": "Origin 2",
+    "destination": "Destination 2",
+    "departureTime": "2024-05-10T18:56:29.699Z",
+    "status": "Delayed"
+  },
+  {
+    "id": 3,
+    "flightNumber": "A3B54",
+    "airline": "Airline 3",
+    "origin": "Origin 3",
+    "destination": "Destination 3",
+    "departureTime": "2024-05-10T19:13:09.699Z",
+    "status": "Departed"
+  },
+  {
+    "id": 4,
+    "flightNumber": "A4B18",
+    "airline": "Airline 4",
+    "origin": "Origin 4",
+    "destination": "Destination 4",
+    "departureTime": "2024-05-10T19:29:49.699Z",
+    "status": "Departed"
+  },
+  {
+    "id": 5,
+    "flightNumber": "A5B84",
+    "airline": "Airline 5",
+    "origin": "Origin 5",
+    "destination": "Destination 5",
+    "departureTime": "2024-05-10T19:46:29.699Z",
+    "status": "Boarding"
+  },
+  {
+    "id": 6,
+    "flightNumber": "A6B32",
+    "airline": "Airline 6",
+    "origin": "Origin 6",
+    "destination": "Destination 6",
+    "departureTime": "2024-05-10T20:03:09.699Z",
+    "status": "On Time"
+  },
+  {
+    "id": 7,
+    "flightNumber": "A7B20",
+    "airline": "Airline 7",
+    "origin": "Origin 7",
+    "destination": "Destination 7",
+    "departureTime": "2024-05-10T20:19:49.699Z",
+    "status": "Delayed"
+  },
+  {
+    "id": 8,
+    "flightNumber": "A8B3",
+    "airline": "Airline 8",
+    "origin": "Origin 8",
+    "destination": "Destination 8",
+    "departureTime": "2024-05-10T20:36:29.699Z",
+    "status": "Delayed"
+  },
+  {
+    "id": 9,
+    "flightNumber": "A9B11",
+    "airline": "Airline 9",
+    "origin": "Origin 9",
+    "destination": "Destination 9",
+    "departureTime": "2024-05-10T20:53:09.699Z",
+    "status": "Delayed"
+  },
+  {
+    "id": 10,
+    "flightNumber": "A10B45",
+    "airline": "Airline 10",
+    "origin": "Origin 10",
+    "destination": "Destination 10",
+    "departureTime": "2024-05-10T21:09:49.699Z",
+    "status": "Departed"
+  },
+  {
+    "id": 11,
+    "flightNumber": "A11B70",
+    "airline": "Airline 11",
+    "origin": "Origin 11",
+    "destination": "Destination 11",
+    "departureTime": "2024-05-10T21:26:29.699Z",
+    "status": "Delayed"
+  },
+  {
+    "id": 12,
+    "flightNumber": "A12B17",
+    "airline": "Airline 12",
+    "origin": "Origin 12",
+    "destination": "Destination 12",
+    "departureTime": "2024-05-10T21:43:09.699Z",
+    "status": "On Time"
+  },
+  {
+    "id": 13,
+    "flightNumber": "A13B80",
+    "airline": "Airline 13",
+    "origin": "Origin 13",
+    "destination": "Destination 13",
+    "departureTime": "2024-05-10T21:59:49.699Z",
+    "status": "Delayed"
+  },
+  {
+    "id": 14,
+    "flightNumber": "A14B76",
+    "airline": "Airline 14",
+    "origin": "Origin 14",
+    "destination": "Destination 14",
+    "departureTime": "2024-05-10T22:16:29.699Z",
+    "status": "Boarding"
+  },
+  {
+    "id": 15,
+    "flightNumber": "A15B95",
+    "airline": "Airline 15",
+    "origin": "Origin 15",
+    "destination": "Destination 15",
+    "departureTime": "2024-05-10T22:33:09.699Z",
+    "status": "Boarding"
+  }
+]
